@@ -16,7 +16,7 @@
         }
 
         .customSize {
-            width: 200px;
+            width: 400px;
         }
     </style>
 </head>
@@ -25,9 +25,60 @@
     <div class="container">
         <header class="bg-success text-white border border-warning-subtle border-5 rounded shadow">
             <h1 class="mt-5">Hello Bootstrap</h1>
-            <p class="display-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo vel cupiditate hic.
+            <p class="display-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nemo vel cupiditate
+                hic.
             </p>
+            <div class="customSize"><img class="img-fluid" src="images/smallCat.jpg" alt=""></div>
         </header>
+        <div class="table-responsive">
+            <table class="table table-success table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>@social</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="card" style="width: 25rem;">
+            <img src="images/smallCat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
     </div>
 </body>
 
